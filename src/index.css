@@ -8,3 +8,22 @@
 	box-sizing: border-box;
 	font-family: "Inter", sans-serif;
 }
+
+:root {
+	--black-color: #0c0c0c;
+	--white-color: #ffffff;
+	--gray-color: #717171;
+	--primary-color: #042352;
+	--lightPrimary-color: #063a88;
+	--darkPrimary-color: #021736;
+	--secondary-color: #f45e0c;
+}
+
+.ctr {
+	width: 85%;
+	margin: 0 auto;
+}
+
+.tr {
+	transition: 0.4s;
+}
