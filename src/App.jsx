@@ -24,7 +24,7 @@ let router = createBrowserRouter([
 function App() {
 	return (
 		<FunctionProvider>
-			<RouterProvider router={router} />;
+			<RouterProvider router={router} />
 		</FunctionProvider>
 	);
 }

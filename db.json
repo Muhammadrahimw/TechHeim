@@ -341,70 +341,6 @@
 				"images": "https://i.ibb.co/CMPSJy3/vr.png",
 				"video": "https://player.vimeo.com/video/112233445"
 			}
-		},
-		{
-			"id": "NP005",
-			"name": "Lenovo ThinkPad X1 Carbon Gen 10",
-			"price": 1899.99,
-			"rating": 4.8,
-			"category": "Laptop",
-			"brand": "Lenovo",
-			"modelName": "ThinkPad X1 Carbon Gen 10",
-			"screenSize": "14 inches",
-			"hardDiskSize": "512 GB SSD",
-			"cpuModel": "Intel Core i7-1270P",
-			"ramMemory": "16 GB",
-			"display": "WQXGA (2560 x 1600)",
-			"graphics": "Intel Iris Xe",
-			"processor": "12-core",
-			"inTheBox": "Laptop, Charger, USB-C Cable, Manual",
-			"height": "18.5 mm",
-			"width": "314.4 mm",
-			"weight": "1.12 kg",
-			"releaseDate": "2023-03-15",
-			"comments": [
-				{
-					"user": "Sarah Parker",
-					"rating": 5,
-					"comment": "Incredible performance, lightweight, and durable."
-				}
-			],
-			"preview": {
-				"images": "https://i.ibb.co/8jV8y0L/lenovo-thinkpad.png",
-				"video": "https://player.vimeo.com/video/654321987"
-			}
-		},
-		{
-			"id": "NP006",
-			"name": "NVIDIA GeForce RTX 4090",
-			"price": 1599.99,
-			"rating": 4.9,
-			"category": "Graphics Card",
-			"brand": "NVIDIA",
-			"modelName": "RTX 4090",
-			"screenSize": "Not applicable",
-			"hardDiskSize": "24 GB GDDR6X",
-			"cpuModel": "Not applicable",
-			"ramMemory": "Not applicable",
-			"display": "Not applicable",
-			"graphics": "GeForce RTX 4090",
-			"processor": "Not applicable",
-			"inTheBox": "Graphics Card, Power Cable",
-			"height": "13.5 cm",
-			"width": "27.5 cm",
-			"weight": "2.2 kg",
-			"releaseDate": "2022-10-12",
-			"comments": [
-				{
-					"user": "Daniel Thomas",
-					"rating": 5,
-					"comment": "Unmatched performance, perfect for gaming and rendering."
-				}
-			],
-			"preview": {
-				"images": "https://i.ibb.co/QXz0qj9/nvidia-rtx4090.png",
-				"video": "https://player.vimeo.com/video/345678901"
-			}
 		}
 	],
 	"bestSellers": [
@@ -436,7 +372,7 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/Jmb3J9V/sony-headphones.png",
+				"images": "https://i.ibb.co/cY72NQy/headphone.png",
 				"video": "https://player.vimeo.com/video/456789012"
 			}
 		},
@@ -468,7 +404,7 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/dJ3hN3G/macbook-pro.png",
+				"images": "https://i.ibb.co/FWvwB4b/plastation.png",
 				"video": "https://player.vimeo.com/video/123456789"
 			}
 		},
@@ -500,7 +436,7 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/T4BHvfK/samsung-tv.png",
+				"images": "https://i.ibb.co/h8y7d6S/laptop-4.png",
 				"video": "https://player.vimeo.com/video/987654321"
 			}
 		},
@@ -532,7 +468,7 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/vXfjZT0/dji-drone.png",
+				"images": "https://i.ibb.co/Gc2S4vg/earphone.png",
 				"video": "https://player.vimeo.com/video/456123789"
 			}
 		},
