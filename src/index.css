@@ -27,3 +27,9 @@
 .tr {
 	transition: 0.4s;
 }
+
+.bgStyle {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}

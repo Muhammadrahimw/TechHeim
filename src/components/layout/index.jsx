@@ -12,21 +12,22 @@ import {FaChevronLeft, FaChevronRight, FaInstagram} from "react-icons/fa6";
 import {SlSocialTwitter} from "react-icons/sl";
 import {FaRegCaretSquareRight} from "react-icons/fa";
 import {TbMessageQuestion} from "react-icons/tb";
+import {Outlet} from "react-router-dom";
 
 function MainLayoutComp() {
 	let [nav, setNav] = useState(false);
 	return (
 		<>
 			<header className="py-4 border-b border-blue-400">
-				<div className="ctr flex justify-between items-center gap-4">
+				<div className="flex items-center justify-between gap-4 ctr">
 					<Link className="max-md:hidden" to="/">
 						<img src="/src/assets/images/logos/logo.svg" alt="logo" />
 					</Link>
 					<HiMiniBars3
 						onClick={() => setNav((prevNav) => !prevNav)}
-						className="scale-150 hidden max-md:block"
+						className="hidden scale-150 max-md:block"
 					/>
-					<p className="text-xl text-lightPrimary hidden max-md:block">
+					<p className="hidden text-xl text-lightPrimary max-md:block">
 						Tech Heim
 					</p>
 					<div
@@ -34,7 +35,7 @@ function MainLayoutComp() {
 						className={`links flex items-center gap-[4em] text-[1.15em] font-light text-black max-lg:gap-6 tr max-md:fixed max-md:top-0 max-md:flex-col max-md:gap-6 max-md:w-[75%] max-md:h-screen max-md:justify-center max-md:text-3xl max-md:backdrop-blur-lg max-sm:w-screen z-50`}>
 						<HiOutlineXMark
 							onClick={() => setNav((prevNav) => !prevNav)}
-							className="scale-125 hidden max-md:block fixed top-8 right-10"
+							className="fixed hidden scale-125 max-md:block top-8 right-10"
 						/>
 						<p className="cursor-pointer">Home</p>
 						<p className="cursor-pointer">Ploducts</p>
@@ -49,11 +50,14 @@ function MainLayoutComp() {
 					</div>
 				</div>
 			</header>
+			<main className="ctr">
+				<Outlet />
+			</main>
 			<footer className="bg-darkPrimary pt-12 max-[1150px]:text-sm tr max-lg:text-base max-[300px]:text-sm">
 				<div className="top ctr">
 					<div className="pb-8 flex justify-between items-start gap-4 max-lg:grid max-lg:grid-cols-3 max-lg:gap-4 tr max-[930px]:flex max-[930px]:flex-wrap max-[930px]:gap-12 max-sm:grid max-sm:grid-cols-2 max-[360px]:grid-cols-1">
 						<div className="flex flex-col gap-2">
-							<b className="text-white font-medium">Company</b>
+							<b className="font-medium text-white">Company</b>
 							<a href="#" className="text-gray ">
 								about us
 							</a>
@@ -71,7 +75,7 @@ function MainLayoutComp() {
 							</a>
 						</div>
 						<div className="flex flex-col gap-2">
-							<b className="text-white font-medium">Info</b>
+							<b className="font-medium text-white">Info</b>
 							<a href="#" className="text-gray ">
 								How it works?
 							</a>
@@ -83,9 +87,9 @@ function MainLayoutComp() {
 							</a>
 						</div>
 						<div className="flex flex-col gap-2 max-sm:col-span-2 max-[360px]:col-span-1">
-							<b className="text-white font-medium">Contact us</b>
+							<b className="font-medium text-white">Contact us</b>
 							<div className="flex items-center gap-2">
-								<CiLocationOn className="text-gray scale-125" />
+								<CiLocationOn className="scale-125 text-gray" />
 								<a
 									target="_blank"
 									href="https://maps.app.goo.gl/uLkqKKVj1WvD5wnu6"
@@ -100,7 +104,7 @@ function MainLayoutComp() {
 								</a>
 							</div>
 							<div className="flex items-center gap-2">
-								<MdOutlineMailOutline className="text-gray scale-125" />
+								<MdOutlineMailOutline className="scale-125 text-gray" />
 								<a
 									href="mailto:TechHeimSupport@gmail.com"
 									className="text-gray ">
@@ -109,19 +113,19 @@ function MainLayoutComp() {
 							</div>
 						</div>
 						<div className="flex flex-col gap-2 max-lg:col-span-2 max-[360px]:col-span-1">
-							<b className="text-white font-medium mb-2">
+							<b className="mb-2 font-medium text-white">
 								Sign up for News and updates
 							</b>
-							<div className="flex items-center gap-1 border border-white p-3 rounded-lg">
+							<div className="flex items-center gap-1 p-3 border border-white rounded-lg">
 								<RiUserLine className="scale-[160%] text-white" />
 								<input
-									className="bg-transparent text-white pl-2 outline-none w-full"
+									className="w-full pl-2 text-white bg-transparent outline-none"
 									type="email"
 									placeholder="E-mail Address"
 								/>
-								<FaChevronRight className="scale-125 text-white cursor-pointer" />
+								<FaChevronRight className="text-white scale-125 cursor-pointer" />
 							</div>
-							<div className="flex items-center justify-start gap-6 text-white mt-4">
+							<div className="flex items-center justify-start gap-6 mt-4 text-white">
 								<a href="#">
 									<RiFacebookBoxLine className="scale-[185%]" />
 								</a>
@@ -139,7 +143,7 @@ function MainLayoutComp() {
 						<div className="text-white flex flex-col justify-between h-full gap-[3.25em] max-lg:items-end max-sm:items-start max-sm:flex-row max-sm:justify-start">
 							<div className="w-10 h-10 rounded-full bg-[#AECDFB] flex justify-center items-center cursor-pointer">
 								<a href="#">
-									<TbMessageQuestion className="scale-150 text-black" />
+									<TbMessageQuestion className="text-black scale-150" />
 								</a>
 							</div>
 							<div
@@ -175,7 +179,7 @@ function MainLayoutComp() {
 				</div>
 				<div className="bottom text-white ctr py-4 flex justify-between items-center gap-4 max-md:flex-col tr max-[530px]:text-xl max-[360px]:items-start">
 					<div className="flex items-center gap-2">
-						<div className="w-6 h-6 rounded-full border-white flex justify-center items-center border-2">
+						<div className="flex items-center justify-center w-6 h-6 border-2 border-white rounded-full">
 							C
 						</div>
 						<p className="text-xs">2023 Tech Heim. </p>
