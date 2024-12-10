@@ -13,6 +13,8 @@ import {ReduceProvider} from "./context/useReduceContext";
 import LayoutDashboard from "./components/dashboard/layout";
 import Dashboard from "./pages/dashboard";
 import AllProductsComp from "./components/dashboard/allProducts";
+import AddProductComp from "./components/dashboard/addProduct";
+import DeleteProductComp from "./components/dashboard/deleteProduct";
 
 let useAxios = makeUseAxios({
 	axios: api,
@@ -45,6 +47,8 @@ let router = createBrowserRouter([
 				element: <Dashboard />,
 			},
 			{path: "allProducts", element: <AllProductsComp />},
+			{path: "addProduct", element: <AddProductComp />},
+			{path: "deleteProduct", element: <DeleteProductComp />},
 		],
 	},
 ]);

@@ -12,32 +12,34 @@ function TechInfoComp() {
 				<div className="flex items-center justify-start w-full bg-[#F9F9F9] rounded-lg px-3 py-4">
 					<p className="font-medium text-gray w-[19em]">Display</p>
 					<p className="font-light text-gray">
-						<CutText text={product.display} maxLength={50} />
+						<CutText text={product.product.display} maxLength={50} />
 					</p>
 				</div>
 				<div className="flex items-center justify-start w-full px-3 py-4 rounded-lg">
 					<p className="font-medium text-gray w-[19em]">Graphics</p>
 					<p className="font-light text-gray">
-						<CutText text={product.graphics} maxLength={50} />
+						<CutText text={product.product.graphics} maxLength={50} />
 					</p>
 				</div>
 				<div className="flex items-center justify-start w-full bg-[#F9F9F9] rounded-lg px-3 py-4">
 					<p className="font-medium text-gray w-[19em]">Processor</p>
 					<p className="font-light text-gray">
-						<CutText text={product.processor} maxLength={50} />
+						<CutText text={product.product.processor} maxLength={50} />
 					</p>
 				</div>
 				<div className="flex items-center justify-start w-full px-3 py-4 rounded-lg">
 					<p className="font-medium text-gray w-[19em]">In the box</p>
 					<p className="font-light text-gray">
-						<CutText text={product.inTheBox} maxLength={50} />
+						<CutText text={product.product.inTheBox} maxLength={50} />
 					</p>
 				</div>
 				<div className="flex items-center justify-start w-full bg-[#F9F9F9] rounded-lg px-3 py-4">
 					<p className="font-medium text-gray w-[19em]">Height</p>
 					<p className="font-light text-gray">
 						<CutText
-							text={product?.dimensions?.height || product.height}
+							text={
+								product.product?.dimensions?.height || product.product.height
+							}
 							maxLength={50}
 						/>
 					</p>
@@ -46,7 +48,7 @@ function TechInfoComp() {
 					<p className="font-medium text-gray w-[19em]">Width</p>
 					<p className="font-light text-gray">
 						<CutText
-							text={product?.dimensions?.width || product.width}
+							text={product.product?.dimensions?.width || product.product.width}
 							maxLength={50}
 						/>
 					</p>
@@ -55,7 +57,9 @@ function TechInfoComp() {
 					<p className="font-medium text-gray w-[19em]">Weight</p>
 					<p className="font-light text-gray">
 						<CutText
-							text={product?.dimensions?.weight || product.weight}
+							text={
+								product.product?.dimensions?.weight || product.product.weight
+							}
 							maxLength={50}
 						/>
 					</p>
@@ -63,7 +67,7 @@ function TechInfoComp() {
 				<div className="flex items-center justify-start w-full px-3 py-4 rounded-lg">
 					<p className="font-medium text-gray w-[19em]">Release Date</p>
 					<p className="font-light text-gray">
-						<CutText text={product.releaseDate} maxLength={50} />
+						<CutText text={product.product.releaseDate} maxLength={50} />
 					</p>
 				</div>
 			</div>

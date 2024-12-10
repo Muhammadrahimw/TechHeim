@@ -1,10 +1,10 @@
 import {useAxios} from "../../../App";
-import React, {useContext} from "react";
+import {useContext} from "react";
 import {Link} from "react-router-dom";
 import {FaStar} from "react-icons/fa6";
 import {FunctionContext} from "../../../context/functionContext.js";
 
-function AllProductsComp() {
+function DeleteProductComp() {
 	let {CutText} = useContext(FunctionContext);
 
 	let allDataFunc = (...url) => {
@@ -23,34 +23,37 @@ function AllProductsComp() {
 
 	let allData = allDataFunc(`discountProducts`, `newProducts`, `bestSellers`);
 
+	let deleteFunc = async (id) => {
+		let [{loading, error}] = useAxios({
+			url: `/newProducts/${id}`,
+			method: "DELETE",
+		});
+	};
+
 	return (
-		<section className="grid grid-cols-4 gap-4 mt-8">
+		<section className="grid grid-cols-4 gap-4">
 			{allData.map((value) => (
-				<Link key={value.id} to={`/product/${value.id}/technical`}>
-					<div className="w-full p-4 rounded shadow-md">
+				<div className="w-full p-4 rounded shadow-md">
+					<Link key={value.id} to={`/product/${value.id}/technical`}>
 						<div
 							style={{backgroundImage: `url(${value.preview?.images[0]})`}}
 							className="max-w-[16em] h-[12em] bgStyle bg-cover max-[480px]:max-w-full"></div>
 						<div className="my-4 border-t rounded-full border-gray"></div>
-						<div className="h-[5.5em] flex flex-col justify-between items-start gap-2">
-							<p className="font-light">
-								<CutText text={value.name} maxLength={46} />
-							</p>
-							<div className="flex justify-between items-center gap-4 w-full text-[1.1em]">
-								<p className="font-light">
-									${value.price || value.originalPrice}
-								</p>
-								<p className="flex items-center gap-1 font-light">
-									<FaStar className="scale-110 text-primary" />
-									{value.rating}
-								</p>
-							</div>
-						</div>
+					</Link>
+					<div className="min-h-[5.5em] flex flex-col justify-between items-start gap-2">
+						<p className="font-light">
+							<CutText text={value.name} maxLength={46} />
+						</p>
+						<button
+							onClick={() => deleteFunc(value.id)}
+							className="w-full h-8 text-white bg-red-500 rounded">
+							delete
+						</button>
 					</div>
-				</Link>
+				</div>
 			))}
 		</section>
 	);
 }
 
-export default AllProductsComp;
+export default DeleteProductComp;

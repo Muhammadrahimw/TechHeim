@@ -11,14 +11,16 @@ function CommentComp() {
 				<div className="flex items-center gap-1 text-2xl">
 					<p>comment of </p>
 					<strong className="font-medium tracking-wider">
-						{product.comments[0].user}:
+						{product.product.comments[0].user}:
 					</strong>
 				</div>
-				<p className="mt-2 text-xl text-black">{product.comments[0].comment}</p>
+				<p className="mt-2 text-xl text-black">
+					{product.product.comments[0].comment}
+				</p>
 				<div className="flex items-center gap-2 mt-2">
 					<p>rating:</p>
 					<span className="flex items-center">
-						<FaStar /> {product.comments[0].rating}
+						<FaStar /> {product.product.comments[0].rating}
 					</span>
 				</div>
 			</div>

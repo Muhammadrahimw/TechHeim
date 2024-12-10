@@ -21,7 +21,7 @@ import {FaStar} from "react-icons/fa6";
 import AllProductsComp from "../../components/dashboard/allProducts/index.jsx";
 
 export let ProductContext = createContext();
-export let AllDataContext = createContext();
+// export let AllDataContext = createContext();
 
 function ProductPage() {
 	let [thumbsSwiper, setThumbsSwiper] = useState(null);
@@ -52,10 +52,12 @@ function ProductPage() {
 
 	if (!product) return <NotFoundComp />;
 
+	// console.log(allData);
+
 	return (
 		<section>
 			<div className="text-[1.1em] text-gray font-light flex items-center gap-1 pt-6 pb-10">
-				<Link to={"/"}>Home</Link> <AiOutlineRight /> Products{" "}
+				<Link to={"/"}>Home</Link> <AiOutlineRight /> Products
 				<AiOutlineRight />
 				<span className="text-blue-500">{product.category}</span>
 			</div>
