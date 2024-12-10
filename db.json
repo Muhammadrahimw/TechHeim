@@ -1,602 +1,596 @@
 {
-  "categories": [
-    {
-      "id": "C001",
-      "name": "Accessories",
-      "imageUrl": "https://i.ibb.co/Rptjvnj/iphone.png"
-    },
-    {
-      "id": "C002",
-      "name": "Camera",
-      "imageUrl": "https://i.ibb.co/nw7231L/camera.png"
-    },
-    {
-      "id": "C003",
-      "name": "Laptop",
-      "imageUrl": "https://i.ibb.co/stkHDJw/maclaptop.png"
-    },
-    {
-      "id": "C004",
-      "name": "Smart Phone",
-      "imageUrl": "https://i.ibb.co/vwgQ2hF/iphone-2.png"
-    },
-    {
-      "id": "C005",
-      "name": "Gaming",
-      "imageUrl": "https://i.ibb.co/S5kf31M/controller.png"
-    },
-    {
-      "id": "C006",
-      "name": "Smart Watch",
-      "imageUrl": "https://i.ibb.co/stsn8Rk/wriswatch.png"
-    }
-  ],
-  "discountProducts": [
-    {
-      "id": "DP001",
-      "name": "Logitech G502 Gaming Mouse",
-      "category": "Accessories",
-      "discount": "50%",
-      "originalPrice": 38,
-      "discountedPrice": 19,
-      "rating": 4.5,
-      "brand": "Logitech",
-      "modelName": "G502",
-      "preview": {
-        "images": [
-          "https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
-          "https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
-          "https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
-          "https://i.ibb.co/1rMRm5r/logitech-h502hero.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789012"
-      },
-      "inTheBox": "Mouse, Charging Cable, Manual",
-      "dimensions": {
-        "height": "5 cm",
-        "width": "8 cm",
-        "weight": "150 g"
-      },
-      "releaseDate": "2022-05-20",
-      "screenSize": "None",
-      "hardDiskSize": "None",
-      "cpuModel": "None",
-      "ramMemory": "None",
-      "display": "None",
-      "graphics": "None",
-      "processor": "None",
-      "comments": [
-        {
-          "user": "Alex",
-          "comment": "Great mouse for gaming, very responsive.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "DP002",
-      "name": "NPET KIO Wired Gaming Keyboard, LED Backlit, Spill-resistant",
-      "category": "Accessories",
-      "discount": "30%",
-      "originalPrice": 49,
-      "discountedPrice": 34.3,
-      "rating": 4,
-      "brand": "NPET",
-      "modelName": "KIO",
-      "preview": {
-        "images": [
-          "https://i.ibb.co/m4PdNqJ/keyboard.png",
-          "https://i.ibb.co/m4PdNqJ/keyboard.png",
-          "https://i.ibb.co/m4PdNqJ/keyboard.png",
-          "https://i.ibb.co/m4PdNqJ/keyboard.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789013"
-      },
-      "inTheBox": "Keyboard, USB Cable, User Manual",
-      "dimensions": {
-        "height": "2 cm",
-        "width": "45 cm",
-        "weight": "800 g"
-      },
-      "releaseDate": "2023-06-10",
-      "screenSize": "None",
-      "hardDiskSize": "None",
-      "cpuModel": "None",
-      "ramMemory": "None",
-      "display": "None",
-      "graphics": "None",
-      "processor": "None",
-      "comments": [
-        {
-          "user": "Lily",
-          "comment": "Perfect for typing and gaming, good quality.",
-          "rating": 4
-        }
-      ]
-    },
-    {
-      "id": "DP003",
-      "name": "Apple Watch Series 7 (GPS, 41MM)",
-      "category": "Smart Watch",
-      "discount": "20%",
-      "originalPrice": 289,
-      "discountedPrice": 231.2,
-      "rating": 4.7,
-      "brand": "Apple",
-      "modelName": "Series 7",
-      "preview": {
-        "images": [
-          "https://i.ibb.co/z85fzST/wriswatch-2.png",
-          "https://i.ibb.co/z85fzST/wriswatch-2.png",
-          "https://i.ibb.co/z85fzST/wriswatch-2.png",
-          "https://i.ibb.co/z85fzST/wriswatch-2.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789014"
-      },
-      "inTheBox": "Apple Watch, Charging Cable, User Guide",
-      "dimensions": {
-        "height": "4.5 cm",
-        "width": "3.5 cm",
-        "weight": "35 g"
-      },
-      "releaseDate": "2021-10-15",
-      "screenSize": "1.7 inches",
-      "hardDiskSize": "None",
-      "cpuModel": "Apple S7",
-      "ramMemory": "1 GB",
-      "display": "OLED",
-      "graphics": "Apple GPU",
-      "processor": "Apple S7",
-      "comments": [
-        {
-          "user": "Sam",
-          "comment": "Great smart watch, very useful for fitness tracking.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "DP004",
-      "name": "Apple 2022 MacBook Air M2 Chip (8GB RAM, 256GB SSD)",
-      "category": "Laptop",
-      "discount": "25%",
-      "originalPrice": 950.22,
-      "discountedPrice": 712.66,
-      "rating": 4.8,
-      "brand": "Apple",
-      "modelName": "MacBook Air M2",
-      "preview": {
-        "images": [
-          "https://i.ibb.co/sm0GNgK/maclaptop2.png",
-          "https://i.ibb.co/sm0GNgK/maclaptop2.png",
-          "https://i.ibb.co/sm0GNgK/maclaptop2.png",
-          "https://i.ibb.co/sm0GNgK/maclaptop2.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789015"
-      },
-      "inTheBox": "MacBook, Charging Cable, User Manual",
-      "dimensions": {
-        "height": "0.6 inch",
-        "width": "11.97 inches",
-        "weight": "2.8 pounds"
-      },
-      "releaseDate": "2022-11-01",
-      "screenSize": "13.3 inches",
-      "hardDiskSize": "256 GB SSD",
-      "cpuModel": "Apple M2",
-      "ramMemory": "8 GB",
-      "display": "Retina Display",
-      "graphics": "Apple GPU",
-      "processor": "Apple M2",
-      "comments": [
-        {
-          "user": "John",
-          "comment": "Fast and efficient, perfect for everyday use.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "DP005",
-      "name": "Samsung Titan Smart Watch",
-      "category": "Smart Watch",
-      "discount": "17%",
-      "originalPrice": 120,
-      "discountedPrice": 99.6,
-      "rating": 4.2,
-      "brand": "Samsung",
-      "modelName": "Titan",
-      "preview": {
-        "images": [
-          "https://i.ibb.co/XVczzdc/wriswatch-3.png",
-          "https://i.ibb.co/XVczzdc/wriswatch-3.png",
-          "https://i.ibb.co/XVczzdc/wriswatch-3.png",
-          "https://i.ibb.co/XVczzdc/wriswatch-3.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789016"
-      },
-      "inTheBox": "Smart Watch, Charger, User Guide",
-      "dimensions": {
-        "height": "1.5 cm",
-        "width": "4.2 cm",
-        "weight": "50 g"
-      },
-      "releaseDate": "2023-01-15",
-      "screenSize": "1.8 inches",
-      "hardDiskSize": "None",
-      "cpuModel": "Exynos 9110",
-      "ramMemory": "768 MB",
-      "display": "Super AMOLED",
-      "graphics": "None",
-      "processor": "Exynos 9110",
-      "comments": [
-        {
-          "user": "Emily",
-          "comment": "Good features for the price, but a bit bulky.",
-          "rating": 4
-        }
-      ]
-    }
-  ],
-  "newProducts": [
-    {
-      "id": "NP001",
-      "name": "Iphone 14 ProMax 256GB",
-      "price": 1099.99,
-      "rating": 4.9,
-      "category": "Smart Phone",
-      "brand": "Apple",
-      "modelName": "Iphone 14 ProMax",
-      "screenSize": "6.7 inches",
-      "hardDiskSize": "256 GB",
-      "cpuModel": "A15 Bionic chip",
-      "ramMemory": "6 GB",
-      "display": "Super Retina XDR display",
-      "graphics": "Apple GPU",
-      "processor": "Hexa-core",
-      "inTheBox": "Iphone 14 ProMax, Charger, USB-C to Lightning Cable",
-      "height": "160.8 mm",
-      "width": "78.1 mm",
-      "weight": "238 g",
-      "releaseDate": "2022-09-14",
-      "comments": [
-        {
-          "user": "John Doe",
-          "rating": 5,
-          "comment": "Amazing phone with great features!"
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/5YPhtFr/iphone-3.png",
-          "https://i.ibb.co/5YPhtFr/iphone-3.png",
-          "https://i.ibb.co/5YPhtFr/iphone-3.png",
-          "https://i.ibb.co/5YPhtFr/iphone-3.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789012"
-      }
-    },
-    {
-      "id": "NP002",
-      "name": "Blackmagic Design Pocket Cinema Camera 6K Pro (Canon)",
-      "price": 2495,
-      "rating": 4.7,
-      "category": "Camera",
-      "brand": "Blackmagic Design",
-      "modelName": "Pocket Cinema Camera 6K Pro",
-      "screenSize": "5 inches",
-      "hardDiskSize": "256 GB",
-      "cpuModel": "ARM-based CPU",
-      "ramMemory": "8 GB",
-      "display": "HDR Touchscreen",
-      "graphics": "Dual native ISO",
-      "processor": "Custom Blackmagic processor",
-      "inTheBox": "Camera, Lens, Power Cable, Manual",
-      "height": "118.3 mm",
-      "width": "162.5 mm",
-      "weight": "1.2 kg",
-      "releaseDate": "2021-04-05",
-      "comments": [
-        {
-          "user": "Jane Smith",
-          "rating": 4,
-          "comment": "Great camera for professionals, but a bit heavy."
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png",
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png",
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png",
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png"
-        ],
-        "video": "https://player.vimeo.com/video/123456789"
-      }
-    },
-    {
-      "id": "NP003",
-      "name": "SAMSUNG Galaxy S23 Ultra Cell Phone 256 GB",
-      "price": 1199.99,
-      "rating": 4.8,
-      "category": "Smart Phone",
-      "brand": "Samsung",
-      "modelName": "Galaxy S23 Ultra",
-      "screenSize": "6.8 inches",
-      "hardDiskSize": "256 GB",
-      "cpuModel": "Exynos 2200",
-      "ramMemory": "12 GB",
-      "display": "Dynamic AMOLED 2X",
-      "graphics": "Mali-G78 MP14",
-      "processor": "Octa-core",
-      "inTheBox": "Galaxy S23 Ultra, Charger, USB-C Cable, Manual",
-      "height": "163.4 mm",
-      "width": "77.9 mm",
-      "weight": "228 g",
-      "releaseDate": "2023-02-01",
-      "comments": [
-        {
-          "user": "Chris Johnson",
-          "rating": 5,
-          "comment": "Perfect phone, fast performance, and stunning display."
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
-          "https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
-          "https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
-          "https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png"
-        ],
-        "video": "https://player.vimeo.com/video/987654321"
-      }
-    },
-    {
-      "id": "NP004",
-      "name": "VR VisionTech X1",
-      "price": 299.99,
-      "rating": 4.6,
-      "category": "Gaming",
-      "brand": "VisionTech",
-      "modelName": "X1",
-      "screenSize": "Not applicable",
-      "hardDiskSize": "Not applicable",
-      "cpuModel": "Not applicable",
-      "ramMemory": "Not applicable",
-      "display": "VR Display",
-      "graphics": "Advanced VR Graphics",
-      "processor": "Custom VR Processor",
-      "inTheBox": "VR Headset, Controller, Power Adapter",
-      "height": "22 cm",
-      "width": "15 cm",
-      "weight": "500 g",
-      "releaseDate": "2022-07-20",
-      "comments": [
-        {
-          "user": "Michael Lee",
-          "rating": 4,
-          "comment": "Good VR experience, but could be more comfortable."
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/CMPSJy3/vr.png",
-          "https://i.ibb.co/CMPSJy3/vr.png",
-          "https://i.ibb.co/CMPSJy3/vr.png",
-          "https://i.ibb.co/CMPSJy3/vr.png"
-        ],
-        "video": "https://player.vimeo.com/video/112233445"
-      }
-    },
-    {
-      "id": "cd63"
-    },
-    {
-      "id": "8b1a"
-    }
-  ],
-  "bestSellers": [
-    {
-      "id": "BS001",
-      "name": "Sony WH-1000XM5",
-      "price": 349.99,
-      "rating": 4.8,
-      "category": "Headphones",
-      "brand": "Sony",
-      "modelName": "WH-1000XM5",
-      "screenSize": "Not applicable",
-      "hardDiskSize": "Not applicable",
-      "cpuModel": "Not applicable",
-      "ramMemory": "Not applicable",
-      "display": "Not applicable",
-      "graphics": "Not applicable",
-      "processor": "Not applicable",
-      "inTheBox": "Headphones, Charging Cable, Manual",
-      "height": "24 cm",
-      "width": "18 cm",
-      "weight": "255 g",
-      "releaseDate": "2022-05-01",
-      "comments": [
-        {
-          "user": "Emma Green",
-          "rating": 5,
-          "comment": "Best noise-canceling headphones I've ever used!"
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/cY72NQy/headphone.png",
-          "https://i.ibb.co/cY72NQy/headphone.png",
-          "https://i.ibb.co/cY72NQy/headphone.png",
-          "https://i.ibb.co/cY72NQy/headphone.png"
-        ],
-        "video": "https://player.vimeo.com/video/456789012"
-      }
-    },
-    {
-      "id": "BS002",
-      "name": "Apple MacBook Pro 14-inch M1 Pro",
-      "price": 1999.99,
-      "rating": 4.9,
-      "category": "Laptop",
-      "brand": "Apple",
-      "modelName": "MacBook Pro 14-inch M1 Pro",
-      "screenSize": "14 inches",
-      "hardDiskSize": "512 GB SSD",
-      "cpuModel": "Apple M1 Pro",
-      "ramMemory": "16 GB",
-      "display": "Liquid Retina XDR",
-      "graphics": "Apple GPU",
-      "processor": "8-core CPU",
-      "inTheBox": "MacBook Pro, Charger, USB-C Cable",
-      "height": "15.5 mm",
-      "width": "312.6 mm",
-      "weight": "1.6 kg",
-      "releaseDate": "2021-10-18",
-      "comments": [
-        {
-          "user": "John Harris",
-          "rating": 5,
-          "comment": "Incredible performance, best laptop for creators!"
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/FWvwB4b/plastation.png",
-          "https://i.ibb.co/FWvwB4b/plastation.png",
-          "https://i.ibb.co/FWvwB4b/plastation.png",
-          "https://i.ibb.co/FWvwB4b/plastation.png"
-        ],
-        "video": "https://player.vimeo.com/video/123456789"
-      }
-    },
-    {
-      "id": "BS003",
-      "name": "Samsung QN90A Neo QLED 4K TV",
-      "price": 1799.99,
-      "rating": 4.7,
-      "category": "TV",
-      "brand": "Samsung",
-      "modelName": "QN90A Neo QLED",
-      "screenSize": "55 inches",
-      "hardDiskSize": "Not applicable",
-      "cpuModel": "Not applicable",
-      "ramMemory": "Not applicable",
-      "display": "4K UHD, Neo QLED",
-      "graphics": "Not applicable",
-      "processor": "Quantum Processor 4K",
-      "inTheBox": "TV, Remote, Power Cable, Manual",
-      "height": "71.3 cm",
-      "width": "122.8 cm",
-      "weight": "17.6 kg",
-      "releaseDate": "2021-03-01",
-      "comments": [
-        {
-          "user": "Sophia Lee",
-          "rating": 5,
-          "comment": "Amazing picture quality, best TV for home theater!"
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/h8y7d6S/laptop-4.png",
-          "https://i.ibb.co/h8y7d6S/laptop-4.png",
-          "https://i.ibb.co/h8y7d6S/laptop-4.png",
-          "https://i.ibb.co/h8y7d6S/laptop-4.png"
-        ],
-        "video": "https://player.vimeo.com/video/987654321"
-      }
-    },
-    {
-      "id": "BS004",
-      "name": "DJI Air 2S Drone",
-      "price": 999.99,
-      "rating": 4.8,
-      "category": "Drone",
-      "brand": "DJI",
-      "modelName": "Air 2S",
-      "screenSize": "Not applicable",
-      "hardDiskSize": "Not applicable",
-      "cpuModel": "Not applicable",
-      "ramMemory": "Not applicable",
-      "display": "Not applicable",
-      "graphics": "Not applicable",
-      "processor": "Custom DJI Processor",
-      "inTheBox": "Drone, Remote Controller, Charger, Manual",
-      "height": "18.3 cm",
-      "width": "28.6 cm",
-      "weight": "595 g",
-      "releaseDate": "2021-04-15",
-      "comments": [
-        {
-          "user": "Lucas Brown",
-          "rating": 4,
-          "comment": "Great drone for aerial photography, but battery life could be better."
-        }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/cY72NQy/headphone.png",
-          "https://i.ibb.co/cY72NQy/headphone.png",
-          "https://i.ibb.co/cY72NQy/headphone.png",
-          "https://i.ibb.co/cY72NQy/headphone.png"
-        ],
-        "video": "https://player.vimeo.com/video/456123789"
-      }
-    }
-  ],
-  "topBrands": [
-    {
-      "id": "TB001",
-      "name": "APPLE",
-      "imageUrl": "/src/assets/images/logos/apple.svg"
-    },
-    {
-      "id": "TB002",
-      "name": "SONY",
-      "imageUrl": "/src/assets/images/logos/sony.svg"
-    },
-    {
-      "id": "TB003",
-      "name": "SAMSUNG",
-      "imageUrl": "/src/assets/images/logos/samsung.svg"
-    },
-    {
-      "id": "TB004",
-      "name": "CANON",
-      "imageUrl": "/src/assets/images/logos/canon.svg"
-    },
-    {
-      "id": "TB005",
-      "name": "HUAWEI",
-      "imageUrl": "/src/assets/images/logos/huawei.svg"
-    },
-    {
-      "id": "TB006",
-      "name": "LENOVO",
-      "imageUrl": "/src/assets/images/logos/lenovo.svg"
-    }
-  ],
-  "ourBlogs": [
-    {
-      "id": "B001",
-      "imageUrl": "https://i.ibb.co/CPQNsv8/meta.png",
-      "title": "Meta Platforms plans to release free tools for developers",
-      "text": "The parent company of Facebook, Meta Platforms, is introducing software to help developers integrate augmented reality (AR) features into their applications. The tools will be free to use and are aimed at making it easier for developers to create engaging AR experiences. Meta plans to release these tools later this year, marking a significant step in its efforts to build the metaverse. The new software will include APIs and SDKs that will enable easier access to Meta's AR platform.",
-      "time": "August 8, 2023"
-    },
-    {
-      "id": "B002",
-      "imageUrl": "https://i.ibb.co/wwQ4Vrs/headphone-2.png",
-      "title": "8 Things You Probably Didn’t Know About Headphones",
-      "text": "Owning a headphone could mean a different thing for different people. For some, it acts as a fashion statement. It’s easy to spot these people, the headphones are almost always just hanging around the neck. But for others, headphones are an essential tool for work, travel, or even relaxation. There are also a variety of features in modern headphones that you may not be aware of, such as noise cancellation, wireless charging, and immersive sound technology. Learn more about these features and how they can enhance your audio experience.",
-      "time": "March 28, 2023"
-    },
-    {
-      "id": "B003",
-      "imageUrl": "https://i.ibb.co/nb0WLXc/bitcoin.png",
-      "title": "Analyzing the August 17th Bitcoin Price Drop",
-      "text": "On August 17th at 9:30PM UTC, Bitcoin’s price dropped more than 8% in a 10-minute window, to a two-month low of under $26k. This sharp drop shocked investors and traders alike, raising questions about the stability of the cryptocurrency market. Many factors could have contributed to the sudden dip, including market speculation, regulatory news, and broader economic trends. In this article, we analyze the reasons behind the drop and explore the potential impact on the future price of Bitcoin.",
-      "time": "August 17, 2023"
-    }
-  ]
+	"categories": [
+		{
+			"id": "C001",
+			"name": "Accessories",
+			"imageUrl": "https://i.ibb.co/Rptjvnj/iphone.png"
+		},
+		{
+			"id": "C002",
+			"name": "Camera",
+			"imageUrl": "https://i.ibb.co/nw7231L/camera.png"
+		},
+		{
+			"id": "C003",
+			"name": "Laptop",
+			"imageUrl": "https://i.ibb.co/stkHDJw/maclaptop.png"
+		},
+		{
+			"id": "C004",
+			"name": "Smart Phone",
+			"imageUrl": "https://i.ibb.co/vwgQ2hF/iphone-2.png"
+		},
+		{
+			"id": "C005",
+			"name": "Gaming",
+			"imageUrl": "https://i.ibb.co/S5kf31M/controller.png"
+		},
+		{
+			"id": "C006",
+			"name": "Smart Watch",
+			"imageUrl": "https://i.ibb.co/stsn8Rk/wriswatch.png"
+		}
+	],
+	"discountProducts": [
+		{
+			"id": "DP001",
+			"name": "Logitech G502 Gaming Mouse",
+			"category": "Accessories",
+			"discount": "50%",
+			"originalPrice": 38,
+			"discountedPrice": 19,
+			"rating": 4.5,
+			"brand": "Logitech",
+			"modelName": "G502",
+			"preview": {
+				"images": [
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png"
+				],
+				"video": "https://player.vimeo.com/video/456789012"
+			},
+			"inTheBox": "Mouse, Charging Cable, Manual",
+			"dimensions": {
+				"height": "5 cm",
+				"width": "8 cm",
+				"weight": "150 g"
+			},
+			"releaseDate": "2022-05-20",
+			"screenSize": "None",
+			"hardDiskSize": "None",
+			"cpuModel": "None",
+			"ramMemory": "None",
+			"display": "None",
+			"graphics": "None",
+			"processor": "None",
+			"comments": [
+				{
+					"user": "Alex",
+					"comment": "Great mouse for gaming, very responsive.",
+					"rating": 5
+				}
+			]
+		},
+		{
+			"id": "DP002",
+			"name": "NPET KIO Wired Gaming Keyboard, LED Backlit, Spill-resistant",
+			"category": "Accessories",
+			"discount": "30%",
+			"originalPrice": 49,
+			"discountedPrice": 34.3,
+			"rating": 4,
+			"brand": "NPET",
+			"modelName": "KIO",
+			"preview": {
+				"images": [
+					"https://i.ibb.co/m4PdNqJ/keyboard.png",
+					"https://i.ibb.co/m4PdNqJ/keyboard.png",
+					"https://i.ibb.co/m4PdNqJ/keyboard.png",
+					"https://i.ibb.co/m4PdNqJ/keyboard.png"
+				],
+				"video": "https://player.vimeo.com/video/456789013"
+			},
+			"inTheBox": "Keyboard, USB Cable, User Manual",
+			"dimensions": {
+				"height": "2 cm",
+				"width": "45 cm",
+				"weight": "800 g"
+			},
+			"releaseDate": "2023-06-10",
+			"screenSize": "None",
+			"hardDiskSize": "None",
+			"cpuModel": "None",
+			"ramMemory": "None",
+			"display": "None",
+			"graphics": "None",
+			"processor": "None",
+			"comments": [
+				{
+					"user": "Lily",
+					"comment": "Perfect for typing and gaming, good quality.",
+					"rating": 4
+				}
+			]
+		},
+		{
+			"id": "DP003",
+			"name": "Apple Watch Series 7 (GPS, 41MM)",
+			"category": "Smart Watch",
+			"discount": "20%",
+			"originalPrice": 289,
+			"discountedPrice": 231.2,
+			"rating": 4.7,
+			"brand": "Apple",
+			"modelName": "Series 7",
+			"preview": {
+				"images": [
+					"https://i.ibb.co/z85fzST/wriswatch-2.png",
+					"https://i.ibb.co/z85fzST/wriswatch-2.png",
+					"https://i.ibb.co/z85fzST/wriswatch-2.png",
+					"https://i.ibb.co/z85fzST/wriswatch-2.png"
+				],
+				"video": "https://player.vimeo.com/video/456789014"
+			},
+			"inTheBox": "Apple Watch, Charging Cable, User Guide",
+			"dimensions": {
+				"height": "4.5 cm",
+				"width": "3.5 cm",
+				"weight": "35 g"
+			},
+			"releaseDate": "2021-10-15",
+			"screenSize": "1.7 inches",
+			"hardDiskSize": "None",
+			"cpuModel": "Apple S7",
+			"ramMemory": "1 GB",
+			"display": "OLED",
+			"graphics": "Apple GPU",
+			"processor": "Apple S7",
+			"comments": [
+				{
+					"user": "Sam",
+					"comment": "Great smart watch, very useful for fitness tracking.",
+					"rating": 5
+				}
+			]
+		},
+		{
+			"id": "DP004",
+			"name": "Apple 2022 MacBook Air M2 Chip (8GB RAM, 256GB SSD)",
+			"category": "Laptop",
+			"discount": "25%",
+			"originalPrice": 950.22,
+			"discountedPrice": 712.66,
+			"rating": 4.8,
+			"brand": "Apple",
+			"modelName": "MacBook Air M2",
+			"preview": {
+				"images": [
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png",
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png",
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png",
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png"
+				],
+				"video": "https://player.vimeo.com/video/456789015"
+			},
+			"inTheBox": "MacBook, Charging Cable, User Manual",
+			"dimensions": {
+				"height": "0.6 inch",
+				"width": "11.97 inches",
+				"weight": "2.8 pounds"
+			},
+			"releaseDate": "2022-11-01",
+			"screenSize": "13.3 inches",
+			"hardDiskSize": "256 GB SSD",
+			"cpuModel": "Apple M2",
+			"ramMemory": "8 GB",
+			"display": "Retina Display",
+			"graphics": "Apple GPU",
+			"processor": "Apple M2",
+			"comments": [
+				{
+					"user": "John",
+					"comment": "Fast and efficient, perfect for everyday use.",
+					"rating": 5
+				}
+			]
+		},
+		{
+			"id": "DP005",
+			"name": "Samsung Titan Smart Watch",
+			"category": "Smart Watch",
+			"discount": "17%",
+			"originalPrice": 120,
+			"discountedPrice": 99.6,
+			"rating": 4.2,
+			"brand": "Samsung",
+			"modelName": "Titan",
+			"preview": {
+				"images": [
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png",
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png",
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png",
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png"
+				],
+				"video": "https://player.vimeo.com/video/456789016"
+			},
+			"inTheBox": "Smart Watch, Charger, User Guide",
+			"dimensions": {
+				"height": "1.5 cm",
+				"width": "4.2 cm",
+				"weight": "50 g"
+			},
+			"releaseDate": "2023-01-15",
+			"screenSize": "1.8 inches",
+			"hardDiskSize": "None",
+			"cpuModel": "Exynos 9110",
+			"ramMemory": "768 MB",
+			"display": "Super AMOLED",
+			"graphics": "None",
+			"processor": "Exynos 9110",
+			"comments": [
+				{
+					"user": "Emily",
+					"comment": "Good features for the price, but a bit bulky.",
+					"rating": 4
+				}
+			]
+		}
+	],
+	"newProducts": [
+		{
+			"id": "NP001",
+			"name": "Iphone 14 ProMax 256GB",
+			"price": 1099.99,
+			"rating": 4.9,
+			"category": "Smart Phone",
+			"brand": "Apple",
+			"modelName": "Iphone 14 ProMax",
+			"screenSize": "6.7 inches",
+			"hardDiskSize": "256 GB",
+			"cpuModel": "A15 Bionic chip",
+			"ramMemory": "6 GB",
+			"display": "Super Retina XDR display",
+			"graphics": "Apple GPU",
+			"processor": "Hexa-core",
+			"inTheBox": "Iphone 14 ProMax, Charger, USB-C to Lightning Cable",
+			"height": "160.8 mm",
+			"width": "78.1 mm",
+			"weight": "238 g",
+			"releaseDate": "2022-09-14",
+			"comments": [
+				{
+					"user": "John Doe",
+					"rating": 5,
+					"comment": "Amazing phone with great features!"
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png"
+				],
+				"video": "https://player.vimeo.com/video/456789012"
+			}
+		},
+		{
+			"id": "NP002",
+			"name": "Blackmagic Design Pocket Cinema Camera 6K Pro (Canon)",
+			"price": 2495,
+			"rating": 4.7,
+			"category": "Camera",
+			"brand": "Blackmagic Design",
+			"modelName": "Pocket Cinema Camera 6K Pro",
+			"screenSize": "5 inches",
+			"hardDiskSize": "256 GB",
+			"cpuModel": "ARM-based CPU",
+			"ramMemory": "8 GB",
+			"display": "HDR Touchscreen",
+			"graphics": "Dual native ISO",
+			"processor": "Custom Blackmagic processor",
+			"inTheBox": "Camera, Lens, Power Cable, Manual",
+			"height": "118.3 mm",
+			"width": "162.5 mm",
+			"weight": "1.2 kg",
+			"releaseDate": "2021-04-05",
+			"comments": [
+				{
+					"user": "Jane Smith",
+					"rating": 4,
+					"comment": "Great camera for professionals, but a bit heavy."
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png",
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png",
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png",
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png"
+				],
+				"video": "https://player.vimeo.com/video/123456789"
+			}
+		},
+		{
+			"id": "NP003",
+			"name": "SAMSUNG Galaxy S23 Ultra Cell Phone 256 GB",
+			"price": 1199.99,
+			"rating": 4.8,
+			"category": "Smart Phone",
+			"brand": "Samsung",
+			"modelName": "Galaxy S23 Ultra",
+			"screenSize": "6.8 inches",
+			"hardDiskSize": "256 GB",
+			"cpuModel": "Exynos 2200",
+			"ramMemory": "12 GB",
+			"display": "Dynamic AMOLED 2X",
+			"graphics": "Mali-G78 MP14",
+			"processor": "Octa-core",
+			"inTheBox": "Galaxy S23 Ultra, Charger, USB-C Cable, Manual",
+			"height": "163.4 mm",
+			"width": "77.9 mm",
+			"weight": "228 g",
+			"releaseDate": "2023-02-01",
+			"comments": [
+				{
+					"user": "Chris Johnson",
+					"rating": 5,
+					"comment": "Perfect phone, fast performance, and stunning display."
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png"
+				],
+				"video": "https://player.vimeo.com/video/987654321"
+			}
+		},
+		{
+			"id": "NP004",
+			"name": "VR VisionTech X1",
+			"price": 299.99,
+			"rating": 4.6,
+			"category": "Gaming",
+			"brand": "VisionTech",
+			"modelName": "X1",
+			"screenSize": "Not applicable",
+			"hardDiskSize": "Not applicable",
+			"cpuModel": "Not applicable",
+			"ramMemory": "Not applicable",
+			"display": "VR Display",
+			"graphics": "Advanced VR Graphics",
+			"processor": "Custom VR Processor",
+			"inTheBox": "VR Headset, Controller, Power Adapter",
+			"height": "22 cm",
+			"width": "15 cm",
+			"weight": "500 g",
+			"releaseDate": "2022-07-20",
+			"comments": [
+				{
+					"user": "Michael Lee",
+					"rating": 4,
+					"comment": "Good VR experience, but could be more comfortable."
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/CMPSJy3/vr.png",
+					"https://i.ibb.co/CMPSJy3/vr.png",
+					"https://i.ibb.co/CMPSJy3/vr.png",
+					"https://i.ibb.co/CMPSJy3/vr.png"
+				],
+				"video": "https://player.vimeo.com/video/112233445"
+			}
+		}
+	],
+	"bestSellers": [
+		{
+			"id": "BS001",
+			"name": "Sony WH-1000XM5",
+			"price": 349.99,
+			"rating": 4.8,
+			"category": "Headphones",
+			"brand": "Sony",
+			"modelName": "WH-1000XM5",
+			"screenSize": "Not applicable",
+			"hardDiskSize": "Not applicable",
+			"cpuModel": "Not applicable",
+			"ramMemory": "Not applicable",
+			"display": "Not applicable",
+			"graphics": "Not applicable",
+			"processor": "Not applicable",
+			"inTheBox": "Headphones, Charging Cable, Manual",
+			"height": "24 cm",
+			"width": "18 cm",
+			"weight": "255 g",
+			"releaseDate": "2022-05-01",
+			"comments": [
+				{
+					"user": "Emma Green",
+					"rating": 5,
+					"comment": "Best noise-canceling headphones I've ever used!"
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png"
+				],
+				"video": "https://player.vimeo.com/video/456789012"
+			}
+		},
+		{
+			"id": "BS002",
+			"name": "Apple MacBook Pro 14-inch M1 Pro",
+			"price": 1999.99,
+			"rating": 4.9,
+			"category": "Laptop",
+			"brand": "Apple",
+			"modelName": "MacBook Pro 14-inch M1 Pro",
+			"screenSize": "14 inches",
+			"hardDiskSize": "512 GB SSD",
+			"cpuModel": "Apple M1 Pro",
+			"ramMemory": "16 GB",
+			"display": "Liquid Retina XDR",
+			"graphics": "Apple GPU",
+			"processor": "8-core CPU",
+			"inTheBox": "MacBook Pro, Charger, USB-C Cable",
+			"height": "15.5 mm",
+			"width": "312.6 mm",
+			"weight": "1.6 kg",
+			"releaseDate": "2021-10-18",
+			"comments": [
+				{
+					"user": "John Harris",
+					"rating": 5,
+					"comment": "Incredible performance, best laptop for creators!"
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/FWvwB4b/plastation.png",
+					"https://i.ibb.co/FWvwB4b/plastation.png",
+					"https://i.ibb.co/FWvwB4b/plastation.png",
+					"https://i.ibb.co/FWvwB4b/plastation.png"
+				],
+				"video": "https://player.vimeo.com/video/123456789"
+			}
+		},
+		{
+			"id": "BS003",
+			"name": "Samsung QN90A Neo QLED 4K TV",
+			"price": 1799.99,
+			"rating": 4.7,
+			"category": "TV",
+			"brand": "Samsung",
+			"modelName": "QN90A Neo QLED",
+			"screenSize": "55 inches",
+			"hardDiskSize": "Not applicable",
+			"cpuModel": "Not applicable",
+			"ramMemory": "Not applicable",
+			"display": "4K UHD, Neo QLED",
+			"graphics": "Not applicable",
+			"processor": "Quantum Processor 4K",
+			"inTheBox": "TV, Remote, Power Cable, Manual",
+			"height": "71.3 cm",
+			"width": "122.8 cm",
+			"weight": "17.6 kg",
+			"releaseDate": "2021-03-01",
+			"comments": [
+				{
+					"user": "Sophia Lee",
+					"rating": 5,
+					"comment": "Amazing picture quality, best TV for home theater!"
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/h8y7d6S/laptop-4.png",
+					"https://i.ibb.co/h8y7d6S/laptop-4.png",
+					"https://i.ibb.co/h8y7d6S/laptop-4.png",
+					"https://i.ibb.co/h8y7d6S/laptop-4.png"
+				],
+				"video": "https://player.vimeo.com/video/987654321"
+			}
+		},
+		{
+			"id": "BS004",
+			"name": "DJI Air 2S Drone",
+			"price": 999.99,
+			"rating": 4.8,
+			"category": "Drone",
+			"brand": "DJI",
+			"modelName": "Air 2S",
+			"screenSize": "Not applicable",
+			"hardDiskSize": "Not applicable",
+			"cpuModel": "Not applicable",
+			"ramMemory": "Not applicable",
+			"display": "Not applicable",
+			"graphics": "Not applicable",
+			"processor": "Custom DJI Processor",
+			"inTheBox": "Drone, Remote Controller, Charger, Manual",
+			"height": "18.3 cm",
+			"width": "28.6 cm",
+			"weight": "595 g",
+			"releaseDate": "2021-04-15",
+			"comments": [
+				{
+					"user": "Lucas Brown",
+					"rating": 4,
+					"comment": "Great drone for aerial photography, but battery life could be better."
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png"
+				],
+				"video": "https://player.vimeo.com/video/456123789"
+			}
+		}
+	],
+	"topBrands": [
+		{
+			"id": "TB001",
+			"name": "APPLE",
+			"imageUrl": "/src/assets/images/logos/apple.svg"
+		},
+		{
+			"id": "TB002",
+			"name": "SONY",
+			"imageUrl": "/src/assets/images/logos/sony.svg"
+		},
+		{
+			"id": "TB003",
+			"name": "SAMSUNG",
+			"imageUrl": "/src/assets/images/logos/samsung.svg"
+		},
+		{
+			"id": "TB004",
+			"name": "CANON",
+			"imageUrl": "/src/assets/images/logos/canon.svg"
+		},
+		{
+			"id": "TB005",
+			"name": "HUAWEI",
+			"imageUrl": "/src/assets/images/logos/huawei.svg"
+		},
+		{
+			"id": "TB006",
+			"name": "LENOVO",
+			"imageUrl": "/src/assets/images/logos/lenovo.svg"
+		}
+	],
+	"ourBlogs": [
+		{
+			"id": "B001",
+			"imageUrl": "https://i.ibb.co/CPQNsv8/meta.png",
+			"title": "Meta Platforms plans to release free tools for developers",
+			"text": "The parent company of Facebook, Meta Platforms, is introducing software to help developers integrate augmented reality (AR) features into their applications. The tools will be free to use and are aimed at making it easier for developers to create engaging AR experiences. Meta plans to release these tools later this year, marking a significant step in its efforts to build the metaverse. The new software will include APIs and SDKs that will enable easier access to Meta's AR platform.",
+			"time": "August 8, 2023"
+		},
+		{
+			"id": "B002",
+			"imageUrl": "https://i.ibb.co/wwQ4Vrs/headphone-2.png",
+			"title": "8 Things You Probably Didn’t Know About Headphones",
+			"text": "Owning a headphone could mean a different thing for different people. For some, it acts as a fashion statement. It’s easy to spot these people, the headphones are almost always just hanging around the neck. But for others, headphones are an essential tool for work, travel, or even relaxation. There are also a variety of features in modern headphones that you may not be aware of, such as noise cancellation, wireless charging, and immersive sound technology. Learn more about these features and how they can enhance your audio experience.",
+			"time": "March 28, 2023"
+		},
+		{
+			"id": "B003",
+			"imageUrl": "https://i.ibb.co/nb0WLXc/bitcoin.png",
+			"title": "Analyzing the August 17th Bitcoin Price Drop",
+			"text": "On August 17th at 9:30PM UTC, Bitcoin’s price dropped more than 8% in a 10-minute window, to a two-month low of under $26k. This sharp drop shocked investors and traders alike, raising questions about the stability of the cryptocurrency market. Many factors could have contributed to the sudden dip, including market speculation, regulatory news, and broader economic trends. In this article, we analyze the reasons behind the drop and explore the potential impact on the future price of Bitcoin.",
+			"time": "August 17, 2023"
+		}
+	]
 }
