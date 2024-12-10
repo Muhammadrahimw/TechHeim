@@ -32,7 +32,7 @@ function MainLayoutComp() {
 					</p>
 					<div
 						style={{left: nav ? `0%` : `-200%`}}
-						className={`links flex items-center gap-[4em] text-[1.15em] font-light text-black max-lg:gap-6 tr max-md:fixed max-md:top-0 max-md:flex-col max-md:gap-6 max-md:w-[75%] max-md:h-screen max-md:justify-center max-md:text-3xl max-md:backdrop-blur-lg max-sm:w-screen z-50`}>
+						className={`links flex items-center gap-[4em] text-[1.15em] font-light text-black max-lg:gap-6 tr max-md:fixed max-md:top-0 max-md:flex-col max-md:gap-6 max-md:w-[75%] max-md:h-screen max-md:justify-center max-md:text-3xl max-md:backdrop-blur-xl max-sm:w-screen z-50`}>
 						<HiOutlineXMark
 							onClick={() => setNav((prevNav) => !prevNav)}
 							className="fixed hidden scale-125 max-md:block top-8 right-10"

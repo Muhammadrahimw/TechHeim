@@ -9,7 +9,9 @@ function LayoutDashboard() {
 					<div>
 						<img src="/src/assets/images/logos/logo.svg" alt="logo" />
 					</div>
-					<h2 className="text-4xl">Tech Heim</h2>
+					<Link to={"/"}>
+						<h2 className="text-4xl">Tech Heim</h2>
+					</Link>
 				</div>
 				<div className="flex flex-col items-start w-full gap-4">
 					<Link to={"allProducts"}>
