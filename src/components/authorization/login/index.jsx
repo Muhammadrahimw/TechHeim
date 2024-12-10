@@ -33,6 +33,7 @@ function LoginComp() {
 			method: "GET",
 		};
 		fetchData(config);
+		localStorage.clear();
 	}, []);
 
 	let onSubmit = (userData) => {
@@ -43,7 +44,8 @@ function LoginComp() {
 					return true;
 				} else {
 					console.log("Siz ro'yxatdan o'tgansiz");
-					navigate(`/dashboard`);
+					localStorage.setItem("isEntered", "true");
+					navigate(`/dashboard/allProducts`);
 					return true;
 				}
 			}
