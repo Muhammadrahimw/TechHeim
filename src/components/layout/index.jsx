@@ -37,7 +37,9 @@ function MainLayoutComp() {
 							onClick={() => setNav((prevNav) => !prevNav)}
 							className="fixed hidden scale-125 max-md:block top-8 right-10"
 						/>
-						<p className="cursor-pointer">Home</p>
+						<Link to={"/"}>
+							<p className="cursor-pointer">Home</p>
+						</Link>
 						<p className="cursor-pointer">Ploducts</p>
 						<p className="cursor-pointer">Blog</p>
 						<p className="cursor-pointer">FAQ</p>

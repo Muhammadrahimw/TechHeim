@@ -43,7 +43,12 @@
 			"brand": "Logitech",
 			"modelName": "G502",
 			"preview": {
-				"images": "https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+				"images": [
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
+					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png"
+				],
 				"video": "https://player.vimeo.com/video/456789012"
 			},
 			"inTheBox": "Mouse, Charging Cable, Manual",
@@ -79,7 +84,12 @@
 			"brand": "NPET",
 			"modelName": "KIO",
 			"preview": {
-				"images": "https://i.ibb.co/m4PdNqJ/keyboard.png",
+				"images": [
+					"https://i.ibb.co/m4PdNqJ/keyboard.png",
+					"https://i.ibb.co/m4PdNqJ/keyboard.png",
+					"https://i.ibb.co/m4PdNqJ/keyboard.png",
+					"https://i.ibb.co/m4PdNqJ/keyboard.png"
+				],
 				"video": "https://player.vimeo.com/video/456789013"
 			},
 			"inTheBox": "Keyboard, USB Cable, User Manual",
@@ -115,7 +125,12 @@
 			"brand": "Apple",
 			"modelName": "Series 7",
 			"preview": {
-				"images": "https://i.ibb.co/z85fzST/wriswatch-2.png",
+				"images": [
+					"https://i.ibb.co/z85fzST/wriswatch-2.png",
+					"https://i.ibb.co/z85fzST/wriswatch-2.png",
+					"https://i.ibb.co/z85fzST/wriswatch-2.png",
+					"https://i.ibb.co/z85fzST/wriswatch-2.png"
+				],
 				"video": "https://player.vimeo.com/video/456789014"
 			},
 			"inTheBox": "Apple Watch, Charging Cable, User Guide",
@@ -151,7 +166,12 @@
 			"brand": "Apple",
 			"modelName": "MacBook Air M2",
 			"preview": {
-				"images": "https://i.ibb.co/sm0GNgK/maclaptop2.png",
+				"images": [
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png",
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png",
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png",
+					"https://i.ibb.co/sm0GNgK/maclaptop2.png"
+				],
 				"video": "https://player.vimeo.com/video/456789015"
 			},
 			"inTheBox": "MacBook, Charging Cable, User Manual",
@@ -187,7 +207,12 @@
 			"brand": "Samsung",
 			"modelName": "Titan",
 			"preview": {
-				"images": "https://i.ibb.co/XVczzdc/wriswatch-3.png",
+				"images": [
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png",
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png",
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png",
+					"https://i.ibb.co/XVczzdc/wriswatch-3.png"
+				],
 				"video": "https://player.vimeo.com/video/456789016"
 			},
 			"inTheBox": "Smart Watch, Charger, User Guide",
@@ -242,7 +267,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/5YPhtFr/iphone-3.png",
+				"images": [
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png"
+				],
 				"video": "https://player.vimeo.com/video/456789012"
 			}
 		},
@@ -274,7 +304,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/bKsW66h/maclaptop-3.png",
+				"images": [
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png",
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png",
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png",
+					"https://i.ibb.co/bKsW66h/maclaptop-3.png"
+				],
 				"video": "https://player.vimeo.com/video/123456789"
 			}
 		},
@@ -306,7 +341,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+				"images": [
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png",
+					"https://i.ibb.co/fvTYdRQ/samsung-s22ultra.png"
+				],
 				"video": "https://player.vimeo.com/video/987654321"
 			}
 		},
@@ -338,7 +378,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/CMPSJy3/vr.png",
+				"images": [
+					"https://i.ibb.co/CMPSJy3/vr.png",
+					"https://i.ibb.co/CMPSJy3/vr.png",
+					"https://i.ibb.co/CMPSJy3/vr.png",
+					"https://i.ibb.co/CMPSJy3/vr.png"
+				],
 				"video": "https://player.vimeo.com/video/112233445"
 			}
 		}
@@ -372,7 +417,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/cY72NQy/headphone.png",
+				"images": [
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png"
+				],
 				"video": "https://player.vimeo.com/video/456789012"
 			}
 		},
@@ -404,7 +454,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/FWvwB4b/plastation.png",
+				"images": [
+					"https://i.ibb.co/FWvwB4b/plastation.png",
+					"https://i.ibb.co/FWvwB4b/plastation.png",
+					"https://i.ibb.co/FWvwB4b/plastation.png",
+					"https://i.ibb.co/FWvwB4b/plastation.png"
+				],
 				"video": "https://player.vimeo.com/video/123456789"
 			}
 		},
@@ -436,7 +491,12 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/h8y7d6S/laptop-4.png",
+				"images": [
+					"https://i.ibb.co/h8y7d6S/laptop-4.png",
+					"https://i.ibb.co/h8y7d6S/laptop-4.png",
+					"https://i.ibb.co/h8y7d6S/laptop-4.png",
+					"https://i.ibb.co/h8y7d6S/laptop-4.png"
+				],
 				"video": "https://player.vimeo.com/video/987654321"
 			}
 		},
@@ -468,72 +528,13 @@
 				}
 			],
 			"preview": {
-				"images": "https://i.ibb.co/Gc2S4vg/earphone.png",
+				"images": [
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png",
+					"https://i.ibb.co/cY72NQy/headphone.png"
+				],
 				"video": "https://player.vimeo.com/video/456123789"
-			}
-		},
-		{
-			"id": "BS005",
-			"name": "Bose QuietComfort 45",
-			"price": 329.99,
-			"rating": 4.7,
-			"category": "Headphones",
-			"brand": "Bose",
-			"modelName": "QuietComfort 45",
-			"screenSize": "Not applicable",
-			"hardDiskSize": "Not applicable",
-			"cpuModel": "Not applicable",
-			"ramMemory": "Not applicable",
-			"display": "Not applicable",
-			"graphics": "Not applicable",
-			"processor": "Not applicable",
-			"inTheBox": "Headphones, Charging Cable, Manual",
-			"height": "20 cm",
-			"width": "15 cm",
-			"weight": "240 g",
-			"releaseDate": "2021-09-23",
-			"comments": [
-				{
-					"user": "Amelia Scott",
-					"rating": 5,
-					"comment": "Super comfortable and excellent noise cancellation."
-				}
-			],
-			"preview": {
-				"images": "https://i.ibb.co/C0CKjdv/bose-headphones.png",
-				"video": "https://player.vimeo.com/video/789456123"
-			}
-		},
-		{
-			"id": "BS006",
-			"name": "Canon EOS R5 Mirrorless Camera",
-			"price": 3899.99,
-			"rating": 4.9,
-			"category": "Camera",
-			"brand": "Canon",
-			"modelName": "EOS R5",
-			"screenSize": "3.2 inches",
-			"hardDiskSize": "Not applicable",
-			"cpuModel": "Not applicable",
-			"ramMemory": "Not applicable",
-			"display": "Touchscreen",
-			"graphics": "Not applicable",
-			"processor": "DIGIC X",
-			"inTheBox": "Camera, Lens, Charger, Battery, Manual",
-			"height": "115.0 mm",
-			"width": "138.5 mm",
-			"weight": "738 g",
-			"releaseDate": "2020-07-09",
-			"comments": [
-				{
-					"user": "Ethan Harris",
-					"rating": 5,
-					"comment": "Fantastic camera, excellent image quality for professional work."
-				}
-			],
-			"preview": {
-				"images": "https://i.ibb.co/8zdpXbP/canon-eosr5.png",
-				"video": "https://player.vimeo.com/video/321654987"
 			}
 		}
 	],
