@@ -48,7 +48,7 @@ function BestProducts() {
 						1280: {slidesPerView: 4},
 					}}
 					onSwiper={(swiper) => console.log()}>
-					{/* {data.map((value) => (
+					{data.map((value) => (
 						<SwiperSlide className="p-4" key={value.id}>
 							<Link key={value.id} to={`/product/${value.id}/technical`}>
 								<div className="w-full p-4 rounded shadow-md">
@@ -71,7 +71,7 @@ function BestProducts() {
 								</div>
 							</Link>
 						</SwiperSlide>
-					))} */}
+					))}
 				</Swiper>
 			</div>
 		</section>
