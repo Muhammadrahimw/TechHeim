@@ -15,6 +15,7 @@ import Dashboard from "./pages/dashboard";
 import AllProductsComp from "./components/dashboard/allProducts";
 import AddProductComp from "./components/dashboard/addProduct";
 import DeleteProductComp from "./components/dashboard/deleteProduct";
+import LoginComp from "./components/authorization/login";
 
 let useAxios = makeUseAxios({
 	axios: api,
@@ -37,6 +38,10 @@ let router = createBrowserRouter([
 				],
 			},
 		],
+	},
+	{
+		path: "/login",
+		element: <LoginComp />,
 	},
 	{
 		path: "/dashboard",
