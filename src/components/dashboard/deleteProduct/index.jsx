@@ -3,6 +3,7 @@ import {useContext} from "react";
 import {Link} from "react-router-dom";
 import {FaStar} from "react-icons/fa6";
 import {FunctionContext} from "../../../context/functionContext.js";
+import axios from "axios";
 
 function DeleteProductComp() {
 	let {CutText} = useContext(FunctionContext);
@@ -24,10 +25,14 @@ function DeleteProductComp() {
 	let allData = allDataFunc(`discountProducts`, `newProducts`, `bestSellers`);
 
 	let deleteFunc = async (id) => {
-		let [{loading, error}] = useAxios({
-			url: `/newProducts/${id}`,
-			method: "DELETE",
-		});
+		try {
+			const response = await axios.delete(
+				`http://localhost:3000/discountProducts/${id}`
+			);
+			console.log("Product deleted successfully:", response.data);
+		} catch (error) {
+			console.error("Error deleting product:", error.message);
+		}
 	};
 
 	return (
