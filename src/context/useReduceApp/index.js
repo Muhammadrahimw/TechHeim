@@ -14,7 +14,28 @@ export let useReduceApp = (state, action) => {
 		}
 
 		case "addBasket": {
-			return state;
+			let producId = JSON.parse(localStorage.getItem("basket")) || [];
+			if (!producId.includes(action.payload)) {
+				producId.push(action.payload);
+			}
+
+			localStorage.setItem("basket", JSON.stringify(producId));
+
+			return {
+				...state,
+				basket: producId,
+			};
+		}
+
+		case "removeBasket": {
+			let producId = JSON.parse(localStorage.getItem("basket")) || [];
+			const editProduct = producId.filter((id) => id !== action.payload);
+			localStorage.setItem("basket", JSON.stringify(editProduct));
+
+			return {
+				...state,
+				basket: editProduct,
+			};
 		}
 
 		default:

@@ -49,7 +49,9 @@ function MainLayoutComp() {
 						<Link to={"favorites"}>
 							<BsHeart className="cursor-pointer" />
 						</Link>
-						<BsBasket3 className="cursor-pointer" />
+						<Link to={"basket"}>
+							<BsBasket3 className="cursor-pointer" />
+						</Link>
 						<RiUserLine className="scale-110 cursor-pointer" />
 					</div>
 				</div>

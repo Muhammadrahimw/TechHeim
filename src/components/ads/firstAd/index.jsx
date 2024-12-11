@@ -12,24 +12,24 @@ function FirstAdComp() {
 				</div>
 				<div className="w-full ml-[4em] max-sm:ml-0 tr max-[540px]:">
 					<div className="flex items-center gap-4">
-						<div className="w-12 h-12 rounded-lg border border-black flex flex-col justify-center items-center">
+						<div className="flex flex-col items-center justify-center w-12 h-12 border border-black rounded-lg">
 							<p className="font-medium">8</p>
 							<p className="text-sm font-light">Days</p>
 						</div>
-						<div className="w-12 h-12 rounded-lg border border-black flex flex-col justify-center items-center">
+						<div className="flex flex-col items-center justify-center w-12 h-12 border border-black rounded-lg">
 							<p className="font-medium">8</p>
 							<p className="text-sm font-light">Days</p>
 						</div>
-						<div className="w-12 h-12 rounded-lg border border-black flex flex-col justify-center items-center">
+						<div className="flex flex-col items-center justify-center w-12 h-12 border border-black rounded-lg">
 							<p className="font-medium">8</p>
 							<p className="text-sm font-light">Days</p>
 						</div>
-						<div className="w-12 h-12 rounded-lg border border-black flex flex-col justify-center items-center">
+						<div className="flex flex-col items-center justify-center w-12 h-12 border border-black rounded-lg">
 							<p className="font-medium">8</p>
 							<p className="text-sm font-light">Days</p>
 						</div>
 					</div>
-					<p className="text-xl font-medium mt-6">
+					<p className="mt-6 text-xl font-medium">
 						It feels good to be the first
 					</p>
 					<p className="text-black font-light mt-2 pl-2 w-[16em]">

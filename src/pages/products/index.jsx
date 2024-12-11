@@ -27,7 +27,7 @@ export let ProductContext = createContext();
 function ProductPage() {
 	let [thumbsSwiper, setThumbsSwiper] = useState(null);
 
-	const {state, dispatch} = useContext(reduceContext);
+	let {state, dispatch} = useContext(reduceContext);
 
 	let {CutText} = useContext(FunctionContext);
 
@@ -55,11 +55,15 @@ function ProductPage() {
 
 	if (!product) return <NotFoundComp />;
 
-	const addFavourite = (id) => {
+	let addFavourite = (id) => {
 		dispatch({type: "addFavorite", payload: id});
 	};
 
-	// console.log(allData);
+	let addBasket = (id) => {
+		dispatch({type: "addBasket", payload: id});
+	};
+
+	console.log(product.id);
 
 	return (
 		<section>
@@ -225,7 +229,11 @@ function ProductPage() {
 							<p className="text-sm">Months</p>
 						</div>
 					</div>
-					<button className="w-full h-12 mt-4 text-blue-600 border-2 border-blue-600 rounded-lg">
+					<button
+						onClick={(e) => {
+							addBasket(product.id);
+						}}
+						className="w-full h-12 mt-4 text-blue-600 border-2 border-blue-600 rounded-lg">
 						Add to cart
 					</button>
 				</div>
