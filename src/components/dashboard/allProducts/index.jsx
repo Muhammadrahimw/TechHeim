@@ -1,6 +1,6 @@
 import {useAxios} from "../../../App";
-import React, {useContext} from "react";
-import {Link} from "react-router-dom";
+import React, {useContext, useEffect} from "react";
+import {Link, useNavigate} from "react-router-dom";
 import {FaStar} from "react-icons/fa6";
 import {FunctionContext} from "../../../context/functionContext.js";
 
@@ -22,6 +22,16 @@ function AllProductsComp() {
 	};
 
 	let allData = allDataFunc(`discountProducts`, `newProducts`, `bestSellers`);
+
+	let navigate = useNavigate();
+
+	useEffect(() => {
+		let isEntered = localStorage.getItem("isEntered");
+
+		if (!isEntered) {
+			navigate("/login");
+		}
+	}, [navigate]);
 
 	return (
 		<section className="grid grid-cols-4 gap-4 mt-8">

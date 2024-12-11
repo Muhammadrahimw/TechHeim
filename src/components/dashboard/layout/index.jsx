@@ -1,7 +1,17 @@
-import React from "react";
-import {Link, Outlet} from "react-router-dom";
+import React, {useEffect} from "react";
+import {Link, Outlet, useNavigate} from "react-router-dom";
 
 function LayoutDashboard() {
+	let navigate = useNavigate();
+
+	useEffect(() => {
+		let isEntered = localStorage.getItem("isEntered");
+
+		if (!isEntered) {
+			navigate("/login");
+		}
+	}, [navigate]);
+
 	return (
 		<section className="bg-[#fafafb] p-5 w-screen h-screen flex justify-between items-start max-w-full gap-4">
 			<div className="w-[20%] h-full custom-shadow rounded-lg bg-white p-4">

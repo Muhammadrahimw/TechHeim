@@ -1,6 +1,7 @@
 import {useAxios} from "../../../App";
-import React, {useContext} from "react";
+import React, {useContext, useEffect} from "react";
 import {useForm} from "react-hook-form";
+import {useNavigate} from "react-router-dom";
 
 function AddProductComp() {
 	let {
@@ -17,6 +18,16 @@ function AddProductComp() {
 		},
 		{manual: true}
 	);
+
+	let navigate = useNavigate();
+
+	useEffect(() => {
+		let isEntered = localStorage.getItem("isEntered");
+
+		if (!isEntered) {
+			navigate("/login");
+		}
+	}, [navigate]);
 
 	const onSubmit = async (newData) => {
 		const productData = {

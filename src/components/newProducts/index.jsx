@@ -81,7 +81,9 @@ function NewProducts() {
 									</div>
 									<div className="my-4 border-t rounded-full border-gray"></div>
 									<div className="h-[5.5em] flex flex-col justify-between items-start gap-2">
-										<p className="font-light">{value.name}</p>
+										<p className="font-light">
+											<CutText text={value.name} maxLength={80} />
+										</p>
 										<div className="flex justify-between items-center gap-4 w-full text-[1.1em]">
 											<p className="font-light">${value.price}</p>
 											<p className="flex items-center gap-1 font-light">

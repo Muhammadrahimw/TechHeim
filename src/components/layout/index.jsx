@@ -52,7 +52,9 @@ function MainLayoutComp() {
 						<Link to={"basket"}>
 							<BsBasket3 className="cursor-pointer" />
 						</Link>
-						<RiUserLine className="scale-110 cursor-pointer" />
+						<Link to={"login"}>
+							<RiUserLine className="scale-110 cursor-pointer" />
+						</Link>
 					</div>
 				</div>
 			</header>

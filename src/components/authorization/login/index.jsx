@@ -41,6 +41,7 @@ function LoginComp() {
 			if (userData.email === value.email) {
 				if (userData.password !== value.password) {
 					console.log("Sizning parolingiz noto'g'ri!");
+					alert("Sizning parolingiz noto'g'ri!");
 					return true;
 				} else {
 					console.log("Siz ro'yxatdan o'tgansiz");
@@ -53,6 +54,7 @@ function LoginComp() {
 		});
 
 		if (!userChecker) {
+			alert("Siz ro'yxatdan o'tmagansiz!");
 			console.log("Siz ro'yxatdan o'tmagansiz!");
 		}
 	};

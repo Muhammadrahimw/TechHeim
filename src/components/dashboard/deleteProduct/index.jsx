@@ -1,5 +1,5 @@
 import {useEffect, useState} from "react";
-import {Link} from "react-router-dom";
+import {Link, useNavigate} from "react-router-dom";
 import axios from "axios";
 import {FunctionContext} from "../../../context/functionContext.js";
 import {useContext} from "react";
@@ -32,6 +32,16 @@ function DeleteProductComp() {
 	useEffect(() => {
 		fetchProducts();
 	}, []);
+
+	let navigate = useNavigate();
+
+	useEffect(() => {
+		let isEntered = localStorage.getItem("isEntered");
+
+		if (!isEntered) {
+			navigate("/login");
+		}
+	}, [navigate]);
 
 	const deleteFunc = async (id) => {
 		try {
