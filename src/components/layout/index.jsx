@@ -46,7 +46,9 @@ function MainLayoutComp() {
 						<p className="cursor-pointer">Contact Us</p>
 					</div>
 					<div className="contact flex items-center gap-5 scale-125 max-[360px]:hidden tr">
-						<BsHeart className="cursor-pointer" />
+						<Link to={"favorites"}>
+							<BsHeart className="cursor-pointer" />
+						</Link>
 						<BsBasket3 className="cursor-pointer" />
 						<RiUserLine className="scale-110 cursor-pointer" />
 					</div>

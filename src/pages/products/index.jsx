@@ -17,14 +17,17 @@ import {IoIosHeartEmpty} from "react-icons/io";
 import {GiRoundStar} from "react-icons/gi";
 import {RiDiscountPercentFill} from "react-icons/ri";
 import {FunctionContext} from "../../context/functionContext.js";
-import {FaStar} from "react-icons/fa6";
+import {FaHeart, FaStar} from "react-icons/fa6";
 import AllProductsComp from "../../components/dashboard/allProducts/index.jsx";
+import {CiHeart} from "react-icons/ci";
+import {reduceContext} from "../../context/useReduceContext/index.jsx";
 
 export let ProductContext = createContext();
-// export let AllDataContext = createContext();
 
 function ProductPage() {
 	let [thumbsSwiper, setThumbsSwiper] = useState(null);
+
+	const {state, dispatch} = useContext(reduceContext);
 
 	let {CutText} = useContext(FunctionContext);
 
@@ -52,6 +55,10 @@ function ProductPage() {
 
 	if (!product) return <NotFoundComp />;
 
+	const addFavourite = (id) => {
+		dispatch({type: "addFavorite", payload: id});
+	};
+
 	// console.log(allData);
 
 	return (
@@ -74,7 +81,7 @@ function ProductPage() {
 						className="mySwiper2">
 						{product.preview.images.map((value, index) => (
 							<SwiperSlide className="relative" key={index}>
-								<Image
+								<img
 									width={
 										window.innerWidth > 850
 											? 450
@@ -85,8 +92,25 @@ function ProductPage() {
 											: 240
 									}
 									src={`${value}`}
+									alt={`Product ${index}`}
 								/>
-								<IoIosHeartEmpty className="absolute text-3xl cursor-pointer top-5 left-5 max-[360px]:top-0 max-[360px]:left-0 tr" />
+								{state.favorites.includes(product.id) ? (
+									<FaHeart
+										className="absolute text-3xl text-red-500 cursor-pointer top-5 left-5"
+										onClick={(event) => {
+											event.preventDefault();
+											addFavourite(product.id);
+										}}
+									/>
+								) : (
+									<CiHeart
+										className="absolute text-3xl cursor-pointer top-5 left-5"
+										onClick={(event) => {
+											event.preventDefault();
+											addFavourite(product.id);
+										}}
+									/>
+								)}
 							</SwiperSlide>
 						))}
 					</Swiper>

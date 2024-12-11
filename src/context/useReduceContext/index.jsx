@@ -1,8 +1,8 @@
 import {createContext, useReducer} from "react";
 import {useReduceApp} from "../useReduceApp";
 
-let initialState = {
-	productId: [],
+const initialState = {
+	favorites: JSON.parse(localStorage.getItem("isLiked")) || [],
 };
 
 export let reduceContext = createContext();

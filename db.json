@@ -33,47 +33,6 @@
 	],
 	"discountProducts": [
 		{
-			"id": "DP001",
-			"name": "Logitech G502 Gaming Mouse",
-			"category": "Accessories",
-			"discount": "50%",
-			"originalPrice": 38,
-			"discountedPrice": 19,
-			"rating": 4.5,
-			"brand": "Logitech",
-			"modelName": "G502",
-			"preview": {
-				"images": [
-					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
-					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
-					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png",
-					"https://i.ibb.co/1rMRm5r/logitech-h502hero.png"
-				],
-				"video": "https://player.vimeo.com/video/456789012"
-			},
-			"inTheBox": "Mouse, Charging Cable, Manual",
-			"dimensions": {
-				"height": "5 cm",
-				"width": "8 cm",
-				"weight": "150 g"
-			},
-			"releaseDate": "2022-05-20",
-			"screenSize": "None",
-			"hardDiskSize": "None",
-			"cpuModel": "None",
-			"ramMemory": "None",
-			"display": "None",
-			"graphics": "None",
-			"processor": "None",
-			"comments": [
-				{
-					"user": "Alex",
-					"comment": "Great mouse for gaming, very responsive.",
-					"rating": 5
-				}
-			]
-		},
-		{
 			"id": "DP002",
 			"name": "NPET KIO Wired Gaming Keyboard, LED Backlit, Spill-resistant",
 			"category": "Accessories",
@@ -239,43 +198,6 @@
 		}
 	],
 	"newProducts": [
-		{
-			"id": "NP001",
-			"name": "Iphone 14 ProMax 256GB",
-			"price": 1099.99,
-			"rating": 4.9,
-			"category": "Smart Phone",
-			"brand": "Apple",
-			"modelName": "Iphone 14 ProMax",
-			"screenSize": "6.7 inches",
-			"hardDiskSize": "256 GB",
-			"cpuModel": "A15 Bionic chip",
-			"ramMemory": "6 GB",
-			"display": "Super Retina XDR display",
-			"graphics": "Apple GPU",
-			"processor": "Hexa-core",
-			"inTheBox": "Iphone 14 ProMax, Charger, USB-C to Lightning Cable",
-			"height": "160.8 mm",
-			"width": "78.1 mm",
-			"weight": "238 g",
-			"releaseDate": "2022-09-14",
-			"comments": [
-				{
-					"user": "John Doe",
-					"rating": 5,
-					"comment": "Amazing phone with great features!"
-				}
-			],
-			"preview": {
-				"images": [
-					"https://i.ibb.co/5YPhtFr/iphone-3.png",
-					"https://i.ibb.co/5YPhtFr/iphone-3.png",
-					"https://i.ibb.co/5YPhtFr/iphone-3.png",
-					"https://i.ibb.co/5YPhtFr/iphone-3.png"
-				],
-				"video": "https://player.vimeo.com/video/456789012"
-			}
-		},
 		{
 			"id": "NP002",
 			"name": "Blackmagic Design Pocket Cinema Camera 6K Pro (Canon)",
