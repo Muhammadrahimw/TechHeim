@@ -308,6 +308,89 @@
 				],
 				"video": "https://player.vimeo.com/video/112233445"
 			}
+		},
+		{
+			"id": "NP005",
+			"name": "iPhone 15 Pro Max",
+			"price": 1199.99,
+			"rating": 4.8,
+			"category": "Smartphones",
+			"brand": "Apple",
+			"modelName": "15 Pro Max",
+			"screenSize": "6.7 inches",
+			"hardDiskSize": "Not applicable",
+			"cpuModel": "A17 Bionic",
+			"ramMemory": "6 GB",
+			"display": "Super Retina XDR Display",
+			"graphics": "Integrated",
+			"processor": "Hexa-core",
+			"inTheBox": "iPhone, USB-C Cable, Documentation",
+			"height": "16 cm",
+			"width": "7.8 cm",
+			"weight": "240 g",
+			"releaseDate": "2023-09-12",
+			"comments": [
+				{
+					"user": "Jane Smith",
+					"rating": 5,
+					"comment": "Amazing phone with stunning camera quality!"
+				},
+				{
+					"user": "John Doe",
+					"rating": 4,
+					"comment": "Great performance but a bit expensive."
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png",
+					"https://i.ibb.co/5YPhtFr/iphone-3.png"
+				],
+				"video": "https://player.vimeo.com/video/223344556"
+			}
+		},
+		{
+			"id": "NP006",
+			"name": "MacBook Pro 16-inch",
+			"price": 2499.99,
+			"rating": 4.9,
+			"category": "Laptops",
+			"brand": "Apple",
+			"modelName": "MacBook Pro",
+			"screenSize": "16 inches",
+			"hardDiskSize": "1 TB SSD",
+			"cpuModel": "M3 Pro",
+			"ramMemory": "16 GB",
+			"display": "Liquid Retina XDR Display",
+			"graphics": "Integrated with Neural Engine",
+			"processor": "10-core",
+			"inTheBox": "MacBook Pro, USB-C to MagSafe 3 Cable, 96W Power Adapter",
+			"height": "1.68 cm",
+			"width": "35.79 cm",
+			"weight": "2.1 kg",
+			"releaseDate": "2023-10-15",
+			"comments": [
+				{
+					"user": "Emily Clark",
+					"rating": 5,
+					"comment": "Perfect for heavy workloads and video editing."
+				},
+				{
+					"user": "Mark Johnson",
+					"rating": 4,
+					"comment": "Great laptop, but could use more ports."
+				}
+			],
+			"preview": {
+				"images": [
+					"https://i.ibb.co/stkHDJw/maclaptop.png",
+					"https://i.ibb.co/stkHDJw/maclaptop.png",
+					"https://i.ibb.co/stkHDJw/maclaptop.png"
+				],
+				"video": "https://www.youtube.com/embed/macbookpro2023"
+			}
 		}
 	],
 	"bestSellers": [
