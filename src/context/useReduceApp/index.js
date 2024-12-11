@@ -29,7 +29,7 @@ export let useReduceApp = (state, action) => {
 
 		case "removeBasket": {
 			let producId = JSON.parse(localStorage.getItem("basket")) || [];
-			const editProduct = producId.filter((id) => id !== action.payload);
+			let editProduct = producId.filter((id) => id !== action.payload);
 			localStorage.setItem("basket", JSON.stringify(editProduct));
 
 			return {
