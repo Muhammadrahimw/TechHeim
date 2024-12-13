@@ -35,7 +35,7 @@
     {
       "id": "DP002",
       "name": "NPET KIO Wired Gaming Keyboard, LED Backlit, Spill-resistant",
-      "price": 47,
+      "price": 9999,
       "rating": 4,
       "category": "Accessories",
       "brand": "NPET",
@@ -159,7 +159,7 @@
     {
       "id": "NP002",
       "name": "Blackmagic Design Pocket Cinema Camera 6K Pro (Canon)",
-      "price": 2495,
+      "price": 9999,
       "rating": 4.7,
       "category": "Camera",
       "brand": "Blackmagic Design",
@@ -176,22 +176,19 @@
       "width": "162.5 mm",
       "weight": "1.2 kg",
       "releaseDate": "2021-04-05",
+      "preview": {
+        "images": [
+          "https://i.ibb.co/bKsW66h/maclaptop-3.png"
+        ],
+        "video": ""
+      },
       "comments": [
         {
           "user": "Jane Smith",
           "rating": 4,
           "comment": "Great camera for professionals, but a bit heavy."
         }
-      ],
-      "preview": {
-        "images": [
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png",
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png",
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png",
-          "https://i.ibb.co/bKsW66h/maclaptop-3.png"
-        ],
-        "video": "https://player.vimeo.com/video/123456789"
-      }
+      ]
     },
     {
       "id": "NP003",

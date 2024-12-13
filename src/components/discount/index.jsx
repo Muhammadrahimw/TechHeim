@@ -24,15 +24,16 @@ function DiscountProducts() {
 						<div
 							style={{backgroundImage: `url(${value.preview.images})`}}
 							className={`bgStyle w-full h-[9em]`}></div>
+
 						<div className="text-xs font-light">
 							<CutText text={value.name} maxLength={42} />
 						</div>
 						<div className="flex items-center justify-between w-full gap-4 text-sm font-light">
 							<div className="font-normal line-through text-gray">
-								${value.originalPrice}
+								${value.originalPrice || value.price}
 							</div>
 							<div className="font-normal text-black">
-								${value.discountedPrice}
+								${value.discountedPrice || value.price}
 							</div>
 							<div className="flex items-center justify-center w-12 h-6 rounded-r bg-[#fddbc9] absolute top-3 left-0">
 								<p className="text-secondary">{value.discount}</p>
