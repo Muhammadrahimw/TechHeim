@@ -16,6 +16,8 @@ import AllProductsComp from "./components/dashboard/allProducts";
 import AddProductComp from "./components/dashboard/addProduct";
 import DeleteProductComp from "./components/dashboard/deleteProduct";
 import LoginComp from "./components/authorization/login";
+import EditProduct from "./components/dashboard/editProduct";
+import Editing from "./components/dashboard/editProduct/editing";
 
 let useAxios = makeUseAxios({
 	axios: api,
@@ -51,9 +53,24 @@ let router = createBrowserRouter([
 				index: true,
 				element: <Dashboard />,
 			},
-			{path: "allProducts", element: <AllProductsComp />},
+			{
+				path: "allProducts",
+				element: <AllProductsComp />,
+			},
 			{path: "addProduct", element: <AddProductComp />},
-			{path: "deleteProduct", element: <DeleteProductComp />},
+			{
+				path: "deleteProduct",
+				element: <DeleteProductComp />,
+			},
+
+			{
+				path: "editProduct",
+				element: <EditProduct />,
+			},
+			{
+				path: "editProduct/editing",
+				element: <Editing />,
+			},
 		],
 	},
 ]);

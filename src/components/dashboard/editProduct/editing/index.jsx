@@ -1,23 +1,31 @@
-import {useAxios} from "../../../App";
-import React, {useContext, useEffect} from "react";
+import {useLocation} from "react-router-dom";
+import {useAxios} from "../../../../App";
+import {useEffect} from "react";
 import {useForm} from "react-hook-form";
 import {useNavigate} from "react-router-dom";
 
-function AddProductComp() {
+const Editing = () => {
+	let location = useLocation();
+	let editingData = location.state;
+
+	console.log(editingData);
+
+	let defaultValues = {
+		...editingData,
+		price: editingData.price || editingData.discountedPrice || "",
+		images: editingData.preview?.images?.[0] || "",
+	};
+
 	let {
 		register,
 		handleSubmit,
 		reset,
 		formState: {errors},
-	} = useForm();
+	} = useForm({
+		defaultValues,
+	});
 
-	let [{data, loading, error}, refetch] = useAxios(
-		{
-			url: "/newProducts",
-			method: "POST",
-		},
-		{manual: true}
-	);
+	let [{loading, error}, refetch] = useAxios({}, {manual: true});
 
 	let navigate = useNavigate();
 
@@ -30,8 +38,8 @@ function AddProductComp() {
 	}, [navigate]);
 
 	const onSubmit = async (newData) => {
-		const productData = {
-			id: `NP${newData.id}`,
+		let productData = {
+			id: editingData.id,
 			name: newData.name,
 			price: parseFloat(newData.price),
 			rating: parseFloat(newData.rating),
@@ -50,21 +58,41 @@ function AddProductComp() {
 			width: newData.width,
 			weight: newData.weight,
 			releaseDate: newData.releaseDate,
-			comments: newData.comments ? newData.comments : [],
 			preview: {
 				images: newData.images.split(","),
 				video: newData.video,
 			},
 		};
 
-		try {
-			const response = await refetch({data: productData});
-			console.log("Mahsulot qo'shildi:", response.data);
-		} catch (error) {
-			console.error("Xato yuz berdi:", error);
+		if (newData.comments === "") {
+			delete productData.comments;
+		} else {
+			productData.comments = newData.comments ? newData.comments : [];
 		}
 
-		reset();
+		let endpoints = ["/newProducts", "/bestSellers", "/discountProducts"];
+
+		for (let endpoint of endpoints) {
+			try {
+				await refetch({
+					url: `${endpoint}/${editingData.id}`,
+					method: "PUT",
+					data: productData,
+				});
+				console.log(`Mahsulot muvaffaqiyatli yangilandi: ${endpoint}`);
+				navigate("/dashboard/editProduct");
+				return;
+			} catch (err) {
+				if (err.response && err.response.status === 404) {
+					console.warn(`${endpoint} da mahsulot topilmadi.`);
+				} else {
+					console.error("Xato yuz berdi:", err);
+					return;
+				}
+			}
+		}
+
+		console.error("Mahsulot hech bir bo'limda topilmadi.");
 	};
 
 	if (loading) return <p>Loading...</p>;
@@ -76,12 +104,11 @@ function AddProductComp() {
 				onSubmit={handleSubmit(onSubmit)}
 				className="p-6 mx-auto space-y-4 bg-white rounded-md">
 				<h2 className="mb-4 text-2xl font-semibold text-gray-800">
-					Add Product
+					Edit Product
 				</h2>
 
 				<div className="grid grid-cols-1 gap-4">
 					{[
-						{name: "id", label: "ID"},
 						{name: "name", label: "Name"},
 						{name: "price", label: "Price"},
 						{name: "category", label: "Category"},
@@ -147,6 +174,6 @@ function AddProductComp() {
 			</form>
 		</section>
 	);
-}
+};
 
-export default AddProductComp;
+export default Editing;
